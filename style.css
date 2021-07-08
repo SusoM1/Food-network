@@ -1,0 +1,49 @@
+
+body{
+    font-family: 'Merriweather', serif;}
+    h1{
+        font-size: 50px;
+         }
+         .blue{
+             color: firebrick;
+         }
+
+         section{
+             display: flex;
+         }
+         .half-width{
+             width: 50%;
+             padding: 5%;
+         }
+         .half-width img{
+         width: 95%
+        }
+        .link-button{
+            text-decoration: none;
+            background: linear-gradient(#e66465, #9198e5);            
+            padding: 10px 40px 10px;
+            border-radius: 50px;
+            font-weight: 500px;
+        }
+        .middle-banner{
+            display: flex;
+            background-image: url(images/Frame\ 58.jpg);
+            background-size: cover;
+            background-repeat: none;  
+            
+        }
+    .half-1 img{
+        width: 95%;
+        height: 500px;
+        float: right;
+  
+    }
+           
+.middle-banner{
+    width: 100%;
+    padding: 10px 10px ;
+   
+}
+.half-2{
+    text-align:inherit;
+}
