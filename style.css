@@ -8,7 +8,7 @@ body{
              color: firebrick;
          }
 
-         section{
+         .flexible-container{
              display: flex;
          }
          .half-width{
@@ -33,8 +33,9 @@ body{
             
         }
     .half-1 img{
-        width: 95%;
-        height: 500px;
+        width: 65%;
+        height: 400px;
+
         float: right;
   
     }
@@ -46,4 +47,51 @@ body{
 }
 .half-2{
     text-align:inherit;
+    
 }
+.my-recipe{
+    text-align: center;
+        margin: auto;
+        width: 50%;
+        
+        padding: 10px;
+      }
+      .works{
+          width: half-width;
+          margin: 5%;
+          padding: 10px;
+          float: left;
+          border-radius: 10px; 
+          box-shadow: 5px 5px 30px gray;
+          
+      }
+.works img{
+        max-width: 100%;  
+        height: auto;  
+        position: center;
+        }
+        
+
+.footer{
+  font-size:25px;
+  padding-left:40px;
+  float:middle;
+  word-spacing:20px;
+}
+
+.footer {
+    position:bottom;
+    bottom:0mm;
+    width:300%;
+    height:200px;  
+    background:rgb(85, 97, 32);
+ }
+.footer h1{
+    text-align: center
+    color yellow
+
+}
+
+ 
+    
+ 
